@@ -2,14 +2,7 @@
 
 int main()
 {
-    int n1, n2, n3, max1, max2;
-
-    printf("Enter 3 integers:");
-    scanf("%d%d%d", &n1,&n2,&n3);
-    
-    max1 = (n1>n2>n3) ? n1:n2;n3;
-
-    printf("The greatest integer is %d\n", max1);
-
-    return 0;
+    int n1=68, n2;
+    n2 = n1 % 2;
+    printf("%d", n2);
 }
