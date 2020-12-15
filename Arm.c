@@ -14,9 +14,11 @@ int main() {
     }
 
     if (result == num)
-        printf("%d is an Armstrong number.", num);
+        printf("%d is an Armstrong number.\n", num);
     else
-        printf("%d is not an Armstrong number.", num);
+        printf("%d is not an Armstrong number.\n", num);
+
+    printf("Hahahah, it works wow!\n");
 
     return 0;
 }
